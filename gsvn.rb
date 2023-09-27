@@ -1,4 +1,4 @@
-class MySvn < Formula
+class gsvn < Formula
   desc "Version control system designed to be a better CVS"
   homepage "https://subversion.apache.org/"
   license "Apache-2.0"
