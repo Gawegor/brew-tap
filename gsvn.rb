@@ -18,7 +18,7 @@ class Gsvn < Formula
 
   bottle do
     sha256 arm64_sonoma:   "b7749b7cbcfb15adc448b5e29c281e02abc67ceb43eebac13b0cd3b37e07f6c4"
-    sha256 arm64_ventura:  "a1944d2503dc470e05a476b5ee92311f3429580ca76e12047b0767be3f800252"
+    # sha256 arm64_ventura:  "a1944d2503dc470e05a476b5ee92311f3429580ca76e12047b0767be3f800252"
     sha256 arm64_monterey: "8b25a02d63873fac081173d33bdf6470909c67d20312afd99dd8a63e2aaa8876"
     sha256 arm64_big_sur:  "88709a23df567166aa8a77778c062d31a25dd72cb3acf34e3c022ca970213798"
     sha256 sonoma:         "d4caf902d2191de7936f14a5bcc0dff4e94bffd89ce5c34cb931c92d9408498f"
