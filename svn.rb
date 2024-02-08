@@ -1,4 +1,4 @@
-class Gsvn < Formula
+class Svn < Formula
   desc "Version control system designed to be a better CVS"
   homepage "https://subversion.apache.org/"
   license "Apache-2.0"
@@ -37,7 +37,7 @@ class Gsvn < Formula
   end
 
   depends_on "pkg-config" => :build
-  depends_on "python@3.11" => [:build, :test]
+  depends_on "python@1.1" => [:build, :test]
   depends_on "scons" => :build # For Serf
   depends_on "swig" => :build
   depends_on "apr"
