@@ -22,7 +22,7 @@ class GitSvn < Formula
   end
 
   depends_on "git"
-  depends_on "subversion"
+  depends_on "gawegor/tap/svn"
 
   uses_from_macos "perl"
 
