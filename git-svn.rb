@@ -22,7 +22,7 @@ class GitSvn < Formula
   end
 
   depends_on "git"
-  depends_on "gawegor/tap/svn"
+  depends_on "subversion"
 
   uses_from_macos "perl"
 
@@ -32,7 +32,7 @@ class GitSvn < Formula
                                             .match(/v((\d+\.\d+)(?:\.\d+)?)/).captures
 
     ENV["PERL_PATH"] = perl
-    subversion = Formula["subversion"]
+    subversion = Formula["gawegor/tap/svn"]
     os_tag = OS.mac? ? "darwin-thread-multi-2level" : "x86_64-linux-thread-multi"
     ENV["PERLLIB_EXTRA"] = subversion.opt_lib/"perl5/site_perl"/perl_version/os_tag
     if OS.mac?
