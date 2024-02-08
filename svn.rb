@@ -37,7 +37,7 @@ class Svn < Formula
   end
 
   depends_on "pkg-config" => :build
-  depends_on "python@1.1" => [:build, :test]
+  depends_on "python@3.11" => [:build, :test]
   depends_on "scons" => :build # For Serf
   depends_on "swig" => :build
   depends_on "apr"
